@@ -2,7 +2,6 @@
 <head>
 	<title>SMNI Live Streaming</title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="js/jwplayer.js"></script>
 	<script src="js/jquery.js"></script>
 	<script src="js/jquery.mobile-1.4.2.min.js"></script>
     <link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css" />
@@ -17,19 +16,12 @@
         <a href="#popupVideo" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">Play</a>
         <div data-role="popup" id="popupVideo" data-overlay-theme="b" data-theme="a" data-tolerance="15,15" class="ui-content">
 
-        <div id='playerwvqxXUslVBgN'></div>
-<script type='text/javascript'>
-    jwplayer('playerwvqxXUslVBgN').setup({
-        file: 'rtmp://smni.live-s.cdn.bitgravity.com/cdn-live/_definst_/smni/live/feed001?',
-        image: 'http://upload.wikimedia.org/wikipedia/en/thumb/d/df/SMNI39.jpg/150px-SMNI39.jpg',
-        title: 'SMNI Livestream',
-        width: '320',
-        height: '240',
-        autostart: 'true'
-    });
-</script>
-        </div>
+<IFRAME SRC="http://smni.live-s.cdn.bitgravity.com:1935/content:cdn-live/smni/live/feed001?width=320&height=240&AutoPlay=true&streamType=live" WIDTH="320" HEIGHT="240" SCROLLING=NO FRAMEBORDER=NO>
+<A HREF="http://smni.live-s.cdn.bitgravity.com:1935/content:cdn-live/smni/live/feed001?width=640&height=500&AutoPlay=true&streamType=live">Play</A>
+</IFRAME>
 
+
+            </div>
 	<div data-role="footer" style="text-align:center; overflow:hidden;">Sonshine Media Network International</div>
 </div>
 </body>
